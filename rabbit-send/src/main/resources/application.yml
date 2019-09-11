@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-boot-rabbitmq-sender
+
+  rabbitmq:
+    host: 47.106.202.179
+    port: 5672
+    username: 1312201788
+    password: wjp19960223
+    virtual-host: /vhost_wjp
+
+server:
+  port: 8080
