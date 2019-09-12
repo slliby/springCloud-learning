@@ -6,16 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rabbit-rece" />
-        <module name="config-test" />
-        <module name="springcloudtest" />
         <module name="rabbit-send" />
+        <module name="eureka-producer" />
+        <module name="eureka-server" />
+        <module name="config-eureka-client" />
+        <module name="rabbit-rece" />
+        <module name="config-test-server" />
+        <module name="config-test-client" />
+        <module name="eureka-consumer" />
+        <module name="config-eureka-server" />
+        <module name="springcloudtest" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="config-test" options="-parameters" />
+      <module name="config-eureka-client" options="-parameters" />
+      <module name="config-eureka-server" options="-parameters" />
+      <module name="config-test-client" options="-parameters" />
+      <module name="config-test-server" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-producer" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="rabbit-rece" options="-parameters" />
       <module name="rabbit-send" options="-parameters" />
       <module name="springcloudtest" options="-parameters" />

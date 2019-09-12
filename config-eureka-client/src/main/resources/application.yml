@@ -1,0 +1,19 @@
+#server:
+#  port: 2021
+#spring:
+#  #  应用名称
+#  application:
+#    name: config-eureka-client
+#  #  配置的服务器,eureka方式获取服务然后获取信息，高可用，分布式～
+#  cloud:
+#    config:
+#      name: config-eureka-server
+#      profile: dev
+#      label: master
+#      discovery:
+#        enabled: true
+#        service-id: config-eureka-server
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:1010/eureka

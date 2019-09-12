@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server-test
+  cloud:
+    config:
+      server:
+#        git配置文件的路径
+        git:
+          uri: https://github.com/slliby/springCloud-learning
+          username: 1312201788@qq.com
+          password: wjp19960223
+          search-paths: config-center

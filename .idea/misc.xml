@@ -8,6 +8,13 @@
         <option value="$PROJECT_DIR$/rabbit-send/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-rece/pom.xml" />
         <option value="$PROJECT_DIR$/config-test/pom.xml" />
+        <option value="$PROJECT_DIR$/config-test-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-test-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/config-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-eureka-server/pom.xml" />
       </list>
     </option>
   </component>

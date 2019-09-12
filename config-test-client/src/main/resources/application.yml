@@ -1,0 +1,14 @@
+server:
+  port: 8889
+spring:
+#  应用名称
+  application:
+    name: config-client-test
+#  配置的服务器,http方式获取
+  cloud:
+    config:
+      name: config-server-test
+      profile: dev
+      uri: http://localhost:8888
+      label: master
+

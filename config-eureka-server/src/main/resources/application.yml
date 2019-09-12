@@ -1,0 +1,19 @@
+server:
+  port: 2020
+spring:
+  application:
+    name: config-eureka-server
+  cloud:
+    config:
+      server:
+        #        git配置文件的路径
+        git:
+          uri: https://github.com/slliby/springCloud-learning
+          username: 1312201788@qq.com
+          password: wjp19960223
+          search-paths: config-center
+#注册中心，注册提供服务，服务调用找到地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1010/eureka
